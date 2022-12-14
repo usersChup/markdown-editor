@@ -1,0 +1,13 @@
+#include <cmath>
+#include <iostream>
+using namespace std;
+int main()
+{
+  int x = 0;
+  cout << "Введіть x: ";
+  cin >> x;
+  if (x <= 2)
+    cout << "f(x)=" << x * x + 5 * x - 6 << endl;
+  else
+    cout << "f(x)=" << abs(x + cos(x)) << endl;
+}
